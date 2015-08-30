@@ -33,7 +33,6 @@
 						});
 						imgD.parentNode.removeChild(imgD); 
 					};
-					console.log(imgD.onload);
 				})(i_img);
 			}
 		},1);
