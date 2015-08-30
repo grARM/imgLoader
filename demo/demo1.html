@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<title>imgLoad dome1</title>
+  	<script type="text/javascript" src="../src/imgloader.js"></script>
+  </head>
+  <body>
+  	<p>imgloader</p>
+  	<script type="text/javascript">
+  		;(function(){
+  			var imgs = [
+  			'http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=1b0dc3d30d2442a7ba03f5f7b02ac62e/6159252dd42a2834b1c7cf5b59b5c9ea15cebf79.jpg',
+  			'http://h.hiphotos.baidu.com/baike/w%3D268/sign=957f3adad43f8794d3ff4f28ea1a0ead/5bafa40f4bfbfbedac5eef1d78f0f736afc31f48.jpg',
+  			'http://b.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=31edd7959f3df8dcb23087c3ac7819ee/8b13632762d0f703d0ad4cbe08fa513d2697c5b1.jpg'
+	  		];
+	  		
+			imgLoader(imgs,function (load){
+	  			console.log('load', load);
+	  		});
+  		})();
+  		
+  		
+  		
+  	</script>
+  </body>
+</html>
