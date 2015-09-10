@@ -1,0 +1,21 @@
+{
+  "name": "imgLoader",			
+  "version": "0.0.1",
+  "description": "mobile img load",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-jshint": "^1.11.2"
+  },
+
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-jshint": "^1.11.2",
+    "shelljs": "^0.3.0"
+  }
+}
